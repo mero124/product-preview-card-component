@@ -1,0 +1,105 @@
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: var(--cream)
+}
+
+.container {
+    width: 403px;
+    height: 577px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    margin: 150px auto;
+}
+
+.container .perfume {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: var(--dark-grayish-blue);
+}
+
+.container h2 {
+    position: absolute;
+    top: 11%;
+    left: 9%;
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.1;
+}
+
+.container .main-p {
+    position: absolute;
+    left: 8%;
+    top: 42%;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: var(--dark-grayish-blue);
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.container .dollar {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    font-weight: 700;
+    font-size: 45px;
+    font-family: 'Fraunces', serif;
+    color: var(--dark-cyan);
+}
+
+.container del {
+    position: absolute;
+    bottom: 20%;
+    left: 63%;
+    color: var(--dark-grayish-blue);
+    font-size: 20px;
+}
+
+.container a {
+    position: absolute;
+    bottom: 6%;
+    left: 10%;
+    text-decoration: none;
+    color: var(--white);
+    width: 300px;
+    height: 50px;
+    background-color: var(--dark-cyan);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.container .cart {
+    position: absolute;
+    left: 25%;
+}
+
+img {
+    max-width: 20%;
+    left: 30%;
+    position: absolute;
+    margin: 150px auto;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}
